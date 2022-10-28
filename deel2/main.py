@@ -53,9 +53,5 @@ while capture.isOpened():
         imAug = cv2.bitwise_or(imAug,imgWarp)
 
         cv2.imshow("features",imAug)
-    
-    #cv2.imshow("frame",imgFeatures)
-    #cv2.imshow("target", targetImg)
-    #cv2.imshow("overlay",overLayImg)
     cv2.waitKey(30)
 
